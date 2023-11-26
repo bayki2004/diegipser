@@ -1,0 +1,72 @@
+h1 { 
+    color: burlywood; 
+    font-family: 
+    'Open Sans Condensed', sans-serif; 
+    font-size: 64px; 
+    font-weight: 700; 
+    line-height: 64px; 
+    margin: 2% 0%; 
+    padding: 1% 0%; 
+    text-align: center; 
+    text-transform: uppercase; 
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    z-index: 1;
+}
+
+li {
+    
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition */
+}
+
+.sublist {
+    display: none;
+    margin-left: 20px;
+}
+
+.sublist li {
+    margin: 5px 0;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s ease; /* Add a smooth text color transition */
+}
+
+/* Style the sublist to have a different background color when open */
+.sublist.open {
+    background-color: #f0f0f0;
+}
+
+/* Hover effect for list items and sublist items */
+li:hover,
+.sublist li:hover {
+    background-color: #e6e6e6;
+}
+
+/* Add some padding to the main list items for better spacing */
+.main-list > li {
+    padding: 10px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    margin: 2% 0%;
+}
+
+.image-container img {
+    max-width: 48%; /* Two images side by side with a small gap */
+    margin: 1%;
+    height: auto; /* Maintain the aspect ratio of the images */
+
+}
+.intro-text {
+    text-align: center;
+    color: burlywood;
+    padding: 1% 30%;
+    font-size: large;
+    margin: 2%;
+}
