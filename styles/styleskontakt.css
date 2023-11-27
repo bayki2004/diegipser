@@ -17,13 +17,10 @@ textarea {
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: white;
+    color: burlywood;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #45a049;
-}
