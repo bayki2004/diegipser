@@ -1,5 +1,5 @@
 h1 { 
-    color: burlywood; 
+    color: #764234; 
     font-family: 
     'Open Sans Condensed', sans-serif; 
     font-size: 64px; 
@@ -65,7 +65,7 @@ li:hover,
 }
 .intro-text {
     text-align: center;
-    color: burlywood;
+    color: #764234;
     padding: 1% 30%;
     font-size: large;
     margin: 2%;
