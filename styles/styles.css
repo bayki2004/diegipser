@@ -8,7 +8,6 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    
 }
 .dropbtn{
     border: 10px;
@@ -124,6 +123,7 @@ h1 { /*text formatierung von überschrift z.B: "Über Uns" */
 .footer {
     background-color: #764234;
     color: #fff;
+    opacity: 90%;
     padding: 20px;
     text-align: center;
     max-height: 200px;
