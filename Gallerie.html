@@ -19,9 +19,13 @@ body {
 /* Style the top navigation bar */
 .navbar {
   display: flex;
+  position: fixed;
+  width: 100%;
   padding: 14px 20px;
   background-color: #764234;
   justify-content: center;
+  z-index: 1000; /* Ensures it stays on top of other content */
+
 }
 
 /* Style the navigation bar links */
@@ -51,7 +55,8 @@ body {
 }
 
 /* Column container */
-.row {  
+.row { 
+  padding-top: 40px; 
   display: flex;
   flex-wrap: wrap;
 }

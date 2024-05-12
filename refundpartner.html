@@ -19,6 +19,9 @@
         /* Style the top navigation bar */
         .navbar {
           display: flex;
+          position: fixed;
+          width: 100%;
+          z-index: 1000;
           padding: 14px 20px;
           background-color: #764234;
           justify-content: center;
@@ -52,6 +55,7 @@
         
         /* Column container */
         .row {  
+            padding-top: 40px;
           display: flex;
           flex-wrap: wrap;
         }
@@ -68,7 +72,7 @@
         .main {
           flex: 70%;
           background-color: white;
-          padding: 20px;
+          padding: 40px;
         }
         
         /* Fake image, just for this example */
