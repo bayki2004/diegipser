@@ -110,6 +110,27 @@
             flex-direction: column;
           }
         }
+        .customers__block ul {
+        display: flex;           /* Enables flexbox */
+        flex-wrap: wrap;         /* Allows items to wrap onto the next line */
+        padding: 0;              /* Removes padding from the ul */
+        list-style: none;        /* Removes bullet points from li elements */
+        justify-content: center; /* Center aligns the items horizontally */
+    }
+
+    .customers__block li {
+        flex: 1 0 25%;           /* Flex-grow, flex-shrink and flex-basis */
+        max-width: 25%;          /* Maximum width of each li to control image size */
+        box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+        padding: 10px;           /* Adds space around each image */
+        text-align: center;      /* Center aligns the content of li */
+    }
+
+    .customers__block img {
+        width: 100%;             /* Makes the image fill the container */
+        height: auto;            /* Keeps the aspect ratio of the image */
+    }
+        
         </style>
 </head>
 <body>
@@ -125,11 +146,18 @@
             <a href="mailto:info@diegipserei.ch">Kontakt</a>
         </div>
     </div>
-    <div class = "main">
+    <div class="main">
         <h1 style="text-align: center;">Referenzen und Partner</h1>
-        <div class="image-container" style="display: flex;">
-            <img src="/pictures/logo.jpg" alt="Image 1" style="width: 50%;">
-            <img src="/pictures/logo.jpg" alt="Image 2" style="width: 50%;">
+        <div class="image-container">
+            <div class="full customers__container">
+                <div class="customers__block">
+                    <ul>
+                        <li><a href="https://www.saentis-baustoffe.ch"><img src="pictures/referenzenlogos/Säntis_Baustoffe_Logo.png"></a></li>
+                        <li><a href="https://www.baustoff-sauter.de/willkommen/"><img src="pictures/referenzenlogos/Baustoff_Sauter.png"></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     
